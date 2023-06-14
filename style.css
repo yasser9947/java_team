@@ -1,0 +1,65 @@
+
+.invalid{
+    color: red;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    opacity: 0.2;
+}
+
+
+.grand-father{
+    height:300px;
+    width: 400px;
+    margin: 10px;
+    padding: 20px;
+    background: rgb(156, 145, 168);
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.father{
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+}
+.son{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+header{
+    height: 70px;
+    width: 100vw;
+    background-color: aquamarine;
+    margin: 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10X;
+    box-sizing: border-box;
+}
+.nave{
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+
+}
+
+h2{
+    margin-left: 10px;
+}
+
+.display::before{
+    content: " تسجيل خروج  ";
+}
+@media   only screen and (max-width: 600px) {
+    .display::before{
+        content: " خروج";
+    }
+}
